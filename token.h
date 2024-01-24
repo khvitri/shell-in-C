@@ -8,4 +8,5 @@ vect_t *parseInput(char *input);
 int handle_string(int i, char *input, vect_t *output);
 
 int isSpecialChar(char c);
+
 #endif /* ifndef _TOKEN_H */

@@ -44,7 +44,7 @@ vect_t *copy_vect(vect_t *prev, vect_t *new_vect);
 vect_t *copy_vect_after(vect_t *prev, vect_t *new_vect, int start);
 
 /** Copies the vector until exclusive specified index and return the copied vector */
-vect_t *copy_vect_until(vect_t *prev, vect_t *new_vect,int end);
+vect_t *copy_vect_until(vect_t *prev, vect_t *new_vect, int end);
 
 // Finds the first index of the string if not found returns -1
 int indexOf(vect_t *v, const char *target);
